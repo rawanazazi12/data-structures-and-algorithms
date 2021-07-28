@@ -43,7 +43,6 @@ const sortNames = (arr) => {
   let newArr=arr.sort();
   return newArr;
 };
-
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
 
@@ -57,6 +56,8 @@ const sortNumbers = (arr) => {
   let newArr=arr.sort((a,b)=> a<b?-1:1);
   return newArr;
 };
+
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
@@ -77,7 +78,6 @@ const sortBackwards = (arr) => {
   
   return newArr;
 };
-
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
 
@@ -101,7 +101,6 @@ const alphabetize = (arr) => {
   });
   return newArr;
 };
-
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
 
@@ -128,7 +127,6 @@ const sortByPrice = (arr) => {
     })
   return newArr
 };
-
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7 - Stretch Goal
 
@@ -142,7 +140,7 @@ const alphabetizeBetter = (arr) => {
 };
 
 /* ------------------------------------------------------------------------------------------------
-CHALLENGE 8 - Stretch Goal***
+CHALLENGE 8 - Stretch Goal
 
 Write a function named sortByLength that takes in an array of strings and returns the same array, with the strings sorted by their length, lowest to highest.
 ------------------------------------------------------------------------------------------------ */
@@ -152,7 +150,7 @@ const sortByLength = (arr) => {
 };
 
 /* ------------------------------------------------------------------------------------------------
-CHALLENGE 9 - Stretch Goal*****
+CHALLENGE 9 - Stretch Goal
 
 Write a function named sortNumbersByLength that takes in an array of numbers and sorts those numbers by their length.
 
