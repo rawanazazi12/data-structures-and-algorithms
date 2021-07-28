@@ -142,7 +142,7 @@ const alphabetizeBetter = (arr) => {
 };
 
 /* ------------------------------------------------------------------------------------------------
-CHALLENGE 8 - Stretch Goal
+CHALLENGE 8 - Stretch Goal***
 
 Write a function named sortByLength that takes in an array of strings and returns the same array, with the strings sorted by their length, lowest to highest.
 ------------------------------------------------------------------------------------------------ */
@@ -152,7 +152,7 @@ const sortByLength = (arr) => {
 };
 
 /* ------------------------------------------------------------------------------------------------
-CHALLENGE 9 - Stretch Goal
+CHALLENGE 9 - Stretch Goal*****
 
 Write a function named sortNumbersByLength that takes in an array of numbers and sorts those numbers by their length.
 
