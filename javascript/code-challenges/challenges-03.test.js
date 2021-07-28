@@ -28,6 +28,8 @@ const typeNum = (arr) => {
   let newArr=arr.filter(value=>{
     return(typeof value === 'number')
   });
+  render()
+  console.log(newArr);
   return newArr;
 };
 
