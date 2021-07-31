@@ -27,7 +27,7 @@ const addOne = (arr) => {
   // Solution code here...
   // let newArr=[];
     let newArr = arr.map(element=>{
-    return (element+1);
+    return element+1;
   });
   return newArr;
 };
